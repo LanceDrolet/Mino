@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Arrow.png" type="Texture" id=1]
+[ext_resource path="res://Assets/attack.png" type="Texture" id=2]
+[ext_resource path="res://Assets/sprint.png" type="Texture" id=3]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Left" type="TouchScreenButton" parent="."]
+position = Vector2( 24, 952 )
+rotation = -1.5708
+normal = ExtResource( 1 )
+passby_press = true
+action = "ui_left"
+
+[node name="Right" type="TouchScreenButton" parent="."]
+position = Vector2( 432, 768 )
+rotation = 1.5708
+normal = ExtResource( 1 )
+passby_press = true
+action = "ui_right"
+
+[node name="Sprits" type="TouchScreenButton" parent="."]
+position = Vector2( 2072, 760 )
+normal = ExtResource( 3 )
+passby_press = true
+action = "sprint"
+
+[node name="Attack" type="TouchScreenButton" parent="."]
+position = Vector2( 1840, 760 )
+normal = ExtResource( 2 )
+passby_press = true
+action = "attack"
+
+[node name="Jump" type="TouchScreenButton" parent="."]
+position = Vector2( 1584, 768 )
+normal = ExtResource( 1 )
+passby_press = true
+action = "Jump"

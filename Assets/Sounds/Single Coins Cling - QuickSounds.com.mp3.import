@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Single Coins Cling - QuickSounds.com.mp3-20ede910c894e396979d8586d555239b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/Single Coins Cling - QuickSounds.com.mp3"
+dest_files=[ "res://.import/Single Coins Cling - QuickSounds.com.mp3-20ede910c894e396979d8586d555239b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
